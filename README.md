@@ -1,5 +1,7 @@
 # MySQL을 이용한 분산락으로 여러 서버에 걸친 동시성 관리 예제코드
 
+> https://woowabros.github.io/experience/2019/05/30/mysql-user-level-lock.html
+
 ### MySQL 설치
 [Docker](https://www.docker.com/) 설치 후
 ```
