@@ -2,6 +2,15 @@
 
 > https://woowabros.github.io/experience/2019/05/30/mysql-user-level-lock.html
 
+```
+// 블로그 댓글 내용 중
+JPA가 아닌 mysql query 로 동시성 제어를 한다면,
+
+SELECT ~ FOR UPDATE 로 구현하는게 더 심플할것 같습니다.
+
+select count(*) from card where user_id=:user_id FOR UPDATE
+```
+
 ### MySQL 설치
 [Docker](https://www.docker.com/) 설치 후
 ```
